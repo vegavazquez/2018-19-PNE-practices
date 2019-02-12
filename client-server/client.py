@@ -19,3 +19,4 @@ s.send(str.encode("HELLO FROM THE CLIENT!!!"))
 msg = s.recv(2048).decode("utf-8")
 print("MESSAGE FROM THE SERVER:\n")
 print(msg)
+
