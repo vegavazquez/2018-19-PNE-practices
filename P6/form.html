@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FORM 2</title>
+  </head>
+  <body>
+    <h3>P6 web form</h3>
+
+    <form action="/seq" method="get">
+      Text input for Seq <input type="text" name="msg">
+      <br><br>
+      Operation Len:
+      <input type="checkbox" name="len">
+      <br><br>
+      Chose a base:
+      <input type="radio" name="base" value="A" checked> A
+      <input type="radio" name="base" value="C"> C
+      <input type="radio" name="base" value="T"> T
+      <input type="radio" name="base" value="G"> G
+      <br><br>
+      Options: <br>
+      Choose operation:
+      <select name="operation">
+        <option value="count">Count</option>
+        <option value="perc">Percentage</option>
+      </select>
+
+        <input type="submit" value="SEND">
+    </form>
+
+  </body>
+</html>
